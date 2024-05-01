@@ -1,0 +1,13 @@
+*section stiffness
+**EA,EI11,EI12,EI22,GJ
+ 1.82142E+11, 9.28520E+10, 5.20624E+07, 1.91194E+12, 6.68566E+10
+*section inertia
+**mass, I11, I12, I22, cmx, cmy
+  12643.    ,  5108.0    ,  3.1256    , 1.26791E+05,-2.25248E-04,  1.7700    
+*transverse shear stiffness
+**GA11,GA22,GA12
+ 7.30026E+10, 7.30026E+10,  0.0000    
+*centroid
+-3.73186E-04,  1.6558    
+*shear center
+-3.84056E-03,  1.7385    
