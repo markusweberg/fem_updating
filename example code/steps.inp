@@ -1,0 +1,13 @@
+*STEP, NAME=Static
+Static analysis
+*STATIC
+1, 1, 1E-5, 1
+*DLOAD, OP=NEW
+, GRAV, 9.81, 0, 0, -1
+*END STEP
+**
+*STEP, NAME=Modal
+Modal analysis
+*FREQUENCY
+90
+*END STEP
